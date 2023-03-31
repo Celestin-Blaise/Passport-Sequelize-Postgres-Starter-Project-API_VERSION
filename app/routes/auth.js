@@ -1,4 +1,4 @@
-var authController = require("../authConfig/controllers/authController");
+const authController = require("../authConfig/controllers/authController");
 
 module.exports = function (app, passport) {
   //SIGNUP A NEW USER WITH PASSPORT
